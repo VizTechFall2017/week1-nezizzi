@@ -1,6 +1,5 @@
 /* This is a comment in CSS*/
 
-/* set the styles for everything with the HTML tag div*/
 div{
     border-style:solid;  /* give the div a solid border that's 1 pixel wide and purple*/
     border-width:1px;
@@ -14,7 +13,7 @@ div{
 
 /* set the style for the imageDiv class*/
 .imageDiv{
-    background:mediumpurple;
+    background:rebeccapurple;
 }
 
 /*when you remove the comments below, the image resizes to fill the entire width of the div that it's in*/
