@@ -2,6 +2,7 @@
 div{
     padding: 0%;
     margin: 0%;
+    background: mediumpurple;
 }
 
 .colorDiv{
@@ -38,7 +39,7 @@ img{
 }
 
 #div4 {
-    font-size: 40pt;
+    font-size: 20pt;
     color: ghostwhite;
     clear:both;
     float:left;
