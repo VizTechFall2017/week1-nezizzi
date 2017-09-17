@@ -24,6 +24,8 @@ img{
     font-family: 'Poppins', sans-serif;
     font-size: 40pt;
     color: ghostwhite;
+    border: solid mediumpurple 20pt;
+
 }
 
 #div2 {
@@ -36,7 +38,7 @@ img{
     color:ghostwhite;
     position:relative;
     width: 50%;
-    float:left;  /* position the div as far to the left as possible, and immediately under/next to the element before it*/
+    float:left;
 }
 
 #div4 {
