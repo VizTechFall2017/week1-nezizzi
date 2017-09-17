@@ -15,8 +15,10 @@ div{
     padding: 1%;
 }
 
-img{
+img {
     width: 100%;
+    
+
 }
 
 .titleDiv {
@@ -28,10 +30,15 @@ img{
 
 }
 
+.bodyDiv {
+    height: 50%;
+}
+
 #div2 {
     position:relative;
     width: 48%;
     float:right;
+
 }
 
 #div3{
@@ -39,6 +46,7 @@ img{
     position:relative;
     width: 50%;
     float:left;
+
 }
 
 #div4 {
