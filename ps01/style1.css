@@ -1,7 +1,7 @@
 
 .div{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     background: mediumpurple;
 }
 
@@ -16,6 +16,7 @@
 
 img {
     width: 100%;
+
 }
 
 .titleDiv {
@@ -32,6 +33,7 @@ img {
     position:relative;
     width: 48%;
     float:right;
+
 }
 
 #div3{
@@ -39,6 +41,7 @@ img {
     position:relative;
     width: 50%;
     float:left;
+   
 }
 
 #div4 {
