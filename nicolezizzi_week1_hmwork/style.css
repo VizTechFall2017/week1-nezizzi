@@ -17,7 +17,7 @@ div{
 
 img {
     width: 100%;
-    
+
 
 }
 
@@ -31,7 +31,7 @@ img {
 }
 
 .bodyDiv {
-    height: 50%;
+    height: 10%;
 }
 
 #div2 {
@@ -49,13 +49,31 @@ img {
 
 }
 
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+
 #div4 {
     text-align: center;
     font-size: 20pt;
     color: rebeccapurple;
     clear:both;
     position:relative;
-    float:bottom;
+    float:left;
     width:50%;  /* note that this is less than 50% because the border takes up 2 px of width - try turning off the border and then increasing to 50% */
 }
 
+#div5 {
+    width:49%;
+    text-align: center;
+    font-size: 12pt;
+    color: white;
+    clear:both;
+    position:relative;
+    float: right;
+}
