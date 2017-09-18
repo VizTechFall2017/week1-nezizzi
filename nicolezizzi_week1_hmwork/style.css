@@ -1,5 +1,5 @@
 
-div{
+.div{
     padding: 0%;
     margin: 0%;
     background: mediumpurple;
@@ -9,7 +9,6 @@ div{
     background:rebeccapurple;
 }
 
-
 .imageDiv {
     background: mediumpurple;
     padding: 1%;
@@ -17,8 +16,6 @@ div{
 
 img {
     width: 100%;
-
-
 }
 
 .titleDiv {
@@ -30,15 +27,11 @@ img {
 
 }
 
-.bodyDiv {
-    height: 10%;
-}
 
 #div2 {
     position:relative;
     width: 48%;
     float:right;
-
 }
 
 #div3{
@@ -49,31 +42,14 @@ img {
 
 }
 
-.clearfix:after {
-    content: ".";
-    visibility: hidden;
-    display: block;
-    height: 0;
-    clear: both;
-}
-
-
 #div4 {
+    background: mediumpurple;
     text-align: center;
     font-size: 20pt;
     color: rebeccapurple;
     clear:both;
     position:relative;
     float:left;
-    width:50%;  /* note that this is less than 50% because the border takes up 2 px of width - try turning off the border and then increasing to 50% */
+    width: 50%;  /* note that this is less than 50% because the border takes up 2 px of width - try turning off the border and then increasing to 50% */
 }
 
-#div5 {
-    width:49%;
-    text-align: center;
-    font-size: 12pt;
-    color: white;
-    clear:both;
-    position:relative;
-    float: right;
-}
